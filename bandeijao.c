@@ -11,16 +11,16 @@ int main(int argc, char *argv[]){
 
 	printf("Fila geral original\n");
 	print_ids(full_list);
-	printf("Fila preferencial\n");
+	printf("\nFila preferencial\n");
 	print_ids(special_list);
 
 	update_list(full_list);
-	printf("Fila geral atualizada\n");
+	printf("\nFila geral atualizada\n");
 	print_ids(full_list);
 
-	printf("Resultado esperado fila preferencial\n");
+	printf("\nResultado esperado fila preferencial\n");
 	print_positions(special_list);
-	printf("Resultado esperado fila geral\n");
+	printf("\nResultado esperado fila geral\n");
 	print_positions(full_list);
 
 	delete_list(&full_list);
